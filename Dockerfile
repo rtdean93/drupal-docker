@@ -1,4 +1,4 @@
-FROM drupal:9.4.9-php8.1-apache
+FROM drupal:latest
 
 RUN apt-get update && apt-get install -y \
 	curl \
